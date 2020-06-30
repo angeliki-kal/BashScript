@@ -26,10 +26,10 @@ In each file it places numRecordsPerFile following the form presented bellow:
                                 776 ENTER Larry Jones SARS-1 87          
                                 125 EXIT Jon Dupont H1N1 62
 
-1) recordID:  an unsigned integer from 0 to 999.
-2) ENTER or EXIT: a string indicating admission or discharge from the hospital.
-3) patientFirstName: a string consisting letters without spaces.                   
-4) patientLastName: a string consisting letters without spaces. 
+1) recordID:  random unsigned integer from 0 to 999.
+2) ENTER or EXIT: random string indicating admission or discharge from the hospital.
+3) patientFirstName: random string consisting letters without spaces.                   
+4) patientLastName: random string consisting letters without spaces. 
 5) disease: a string consisting letters, numbers, and possibly a dash "-" but without spaces. This is given by 
 user's diseasesFile.
-6) age: integer number 1 <= age <= 120.
+6) age: random integer number 1 <= age <= 120.
