@@ -4,14 +4,14 @@ Systems' Programming,
 Departement of Informatics and Telecommunications, 
 National & Kapodistrian Uneversity of Athens
 
-######################### RUN ##########################
+### RUN
 ./create_infiles.sh  diseasesFile  countriesFile  input_dir  numFilesPerDirectory numRecordsPerFile 
 
 diseasesFile: file with virus names (one per line).
 countriesFile: file with country names (one per line).
 input_dir: the name of a directory where subdirectories and input files will be placed.
 
-#################### IMPLEMENTATION ####################
+### IMPLEMENTATION
 Starting by  checking if the right amount of arguments has been given and if the last two arguments are integers > 0.
 If it does not meet the specifications, it prints a fitting message.
 
