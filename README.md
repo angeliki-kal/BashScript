@@ -5,7 +5,9 @@ Departement of Informatics and Telecommunications,
 National & Kapodistrian Uneversity of Athens
 
 ### RUN
+```
 ./create_infiles.sh  diseasesFile  countriesFile  input_dir  numFilesPerDirectory numRecordsPerFile 
+```
 
 diseasesFile: file with virus names (one per line).
 countriesFile: file with country names (one per line).
